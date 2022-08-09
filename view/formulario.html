@@ -6,53 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <head>
+    <header class="centralizar fundo">
         <h1>Formulário</h1>
-    </head>
+    </header>
     <form>
-        <div>
-            <label  for="username">Nome completo</label>
-        </div>
-        <div>
-            <input type="text" name="username" placeholder="Digite seu nome completo" required>
-        </div>
-        <br>
+    <div class="centralizar fundo-pg flex-container-form flex-container-form1">
+        <div class="coluna3 fundo lado-form">
 
 
-        <div>
-            <label  for="useremail">Email</label>
-        </div>
-        <div>
-            <input type="text" name="useremail" placeholder="Digite seu Email" required>
-        </div>
-        <br>
 
-
-        <div>
-            <label  for="userphone">Telefone</label>
         </div>
-        <div>
-            <input type="text" name="userphone" placeholder="Digite seu Telefone" required>
-        </div>
-        <br>
-
-
-        <div>
-            <label for="descricao">Escreva seu comentário</label>
-        </div>
-        <div>
-            <textarea name="descricao" id="descricao" cols="20" rows="10" placeholder="Escreva um comentário..." required></textarea>
-        </div>
+        <div class="coluna9">
+            <label for="username">Nome completo</label><br>
+            <input id="tam-input"type="text" name="username" placeholder="Digite seu nome completo" required>
+        
         <br><br>
 
 
-        <div>
+        
+            <label for="useremail">Email</label><br>
+            <input id="tam-input"type="text" name="useremail" placeholder="Digite seu Email" required>
+        <br><br>
+
+
+            <label  for="userphone">Telefone</label><br>
+            <input id="tam-input"type="text" name="userphone" placeholder="Digite seu Telefone" required>
+        <br><br>
+
+
+            <label for="descricao">Escreva seu comentário</label><br>
+            <textarea id="tam-input"name="descricao" id="descricao" cols="20" rows="10" placeholder="Escreva um comentário..." required></textarea>
+        <br><br><br>
+
             <address>
-                <a href="mailto:reinanzinho100@gmail.com"><input type="button" value="Enviar"></a>
+                <a href="mailto:reinanzinho100@gmail.com"><input class="botao-efeito1 botao-efeito2 tam-botao"type="button" value="Enviar"></a>
             </address>
         </div>
+
+
+        <div class="coluna3 lado-form">
+
+
+
+        </div>
+    </div>
     </form>
 
     
